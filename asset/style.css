@@ -1,0 +1,83 @@
+.controlrow .card-img-top {
+    width: 90px;
+}
+.card{
+    border-radius: 2.25rem !important;
+}
+h3 {
+    font-family:sans-serif}
+    .mainfooter{
+        background-color: #444547;
+    
+    }
+    .footercontrol{
+        padding-top: 90px;
+        padding-left: 50px;
+        
+        
+    }
+    h5{
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: bold;
+
+    }
+    h4{
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 2px;
+
+    }
+    li{
+        list-style: none;
+        text-transform: capitalize;
+        font-size: inherit;
+        
+    }
+    address{
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .last{
+        text-transform: capitalize;
+        font-size: 20px;
+
+    }
+    .icontags{
+        color: red;
+    }
+    .footerpad{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 80px;
+        font-size: 20px;
+
+    }
+    .buttencom{
+    padding: 12px 25px !important;
+background: #fff;
+border-color: blue !important;
+border-radius: 9px !important;
+}
+.contactalt{
+    line-height: 35px;
+}
+
+@media all and (max-width:576px){
+    .productlist .col-sm-3{
+        display: none;
+    }
+    .productlist .col-sm-3:first-child{
+        display: block;
+    }
+}
+@media all and (max-width:550px){
+    .imgcontrol{
+        width: 50%;
+    }
+
+    footer ul {
+        padding-left: 0;
+    }
+
+}
